@@ -1,0 +1,77 @@
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    .workout{
+        top:190%;
+    }
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 912px) {
+    .workout{
+        top:200%;
+        margin-left: 0%;
+    }
+    .workout-img{
+        margin-left: 0%;
+    }
+    .merchandise{
+        margin-left: 15%;
+    }
+    
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 600px) {
+    .workout{
+        top:200%;
+    }
+    .workout-gallery{
+        margin:2%;
+    }
+}
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width : 768px) {
+ 
+    .workout{
+        top:200%;
+    }
+    .workout-gallery{
+        margin:4%;
+    }
+    .merchandise{
+        margin-left: 15%;
+    }
+}
+@media only screen 
+and (min-width : 1024px) {
+    .workout{
+        top:190%;
+    }
+    .workout-img{
+        margin-left: 0%;
+    }
+    .workout-gallery{
+        margin:4%;
+    }
+    .merchandise{
+        margin-left: 15%;
+    }
+}
+
+::placeholder{
+    color: grey;
+}
+
+.hr-container {
+    text-align: center; 
+}
+
+.custom-hr {
+    width: 75%; 
+    margin: 0 auto; 
+    border: none; 
+    border-top: 1px solid #ccc; 
+}

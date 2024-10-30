@@ -1,0 +1,283 @@
+.backimage{
+  background-image: url(../../../assets/banner.jpg);     
+  background-size: cover;
+background-attachment: fixed;
+background-position: center;
+background-color: #f8f9fa; 
+background-repeat: no-repeat;
+min-height: 100vh;
+margin: 0;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.navbar-position{
+  position: absolute; top: 3%; right: 0%;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 912px) {
+ 
+  .bannerclass{
+    top:190%;
+  }
+  .contentdiv{
+    top:112%;
+  }
+  .firstdiv{
+    top:39%;
+  }
+  .stylefont{
+    font-size: 20px;
+}
+.paradiv{
+    left: 32%;
+        padding-right: 10px;
+}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 600px) {
+
+ 
+  .bannerclass{
+    
+    top:190%;
+  }
+  .contentdiv{
+    top:112%;
+  }
+  .firstdiv{
+    top:39%;
+  }
+  .stylefont{
+    font-size: 20px;
+}
+.paradiv{
+    left: 32%;
+    padding-right: 10px;
+}
+.banner-header{
+  font-size: 3rem
+}
+.banner-second{
+  font-size: 1rem
+}
+.text-position{
+  left: 10%;
+  width:25%
+}
+.navbar-position{
+  position: absolute; top: 5%; right: 3%;
+}
+.navbar {
+  position: relative; 
+}
+.navbar-toggler {
+  position: absolute;
+  right: 3%; 
+  top: 0%;
+  transform: translateY(-50%); 
+}
+.navbar-nav {
+  margin-top: 10px; 
+}
+}
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width : 768px) {
+ 
+    .bannerclass{
+        top:125%;
+      }
+      .contentdiv{
+        top:80%;
+      }
+      .firstdiv{
+        top:33%;
+      }
+      .stylefont{
+        font-size: 20px;
+    }
+    .paradiv{
+        left: 32%;
+        padding-right: 10px;
+    }
+    .banner-header{
+      font-size: 4rem
+    }
+    .banner-second{
+      font-size: 1.5rem
+    }
+    .text-position{
+      left: 33%;
+      width:50%
+    }
+    .navbar-position{
+      position: absolute; top: 5%; right: 3%;
+    }
+    .navbar {
+      position: relative; 
+    }
+    .navbar-toggler {
+      position: absolute;
+      right: 3%; 
+      top: 0%;
+      transform: translateY(-50%); 
+    }
+    .navbar-nav {
+      margin-top: 10px; 
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1092px) {
+  .text-position{
+    left: 33%;
+    width:60%
+  }
+  .banner-header{
+    font-size: 4rem
+  }
+  .banner-second{
+    font-size: 1.5rem
+  }
+  .navbar {
+    position: relative; 
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 3%; 
+    top: 0%;
+    transform: translateY(-50%); 
+  }
+  .navbar-nav {
+    margin-top: 10px; 
+  }
+  
+}
+
+@media only screen 
+and (min-width : 1024px) {
+    .bannerclass{
+        top:125%;
+      }
+      .contentdiv{
+        top:80%;
+      }
+      .firstdiv{
+        top:33%;
+      }
+      .stylefont{
+        font-size: 45px;
+    }
+    .paradiv{
+        left: 35%;
+    }
+    .banner-header{
+      font-size: 4rem
+    }
+    .banner-second{
+      font-size: 1.5rem
+    }
+    .text-position{
+      left: 20%;
+      width:75%
+      
+    }
+    .navbar-position{
+      position: absolute; top: 3%; right: 3%;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    .bannerclass{
+        top:125%;
+      }
+      .contentdiv{
+        top:80%;
+      }
+      .firstdiv{
+        top:33%;
+      }
+      .stylefont{
+        font-size: 45px;
+    }
+    .paradiv{
+        left: 35%;
+    }
+    .banner-header{
+      font-size: 4rem
+    }
+    .banner-second{
+      font-size: 1.5rem
+    }
+    .text-position{
+      left: 33%;
+      width:60%
+    }
+    .navbar-position{
+      position: absolute; top: 3%; right: 3%;
+    }
+    
+}
+
+// @media only screen 
+// and (min-device-width : 414px) 
+// and (max-device-width : 480px) {
+ 
+//   .bannerclass{
+//     top:149%;
+//   }
+// }
+
+
+// /* Smartphones (landscape) ----------- */
+// @media only screen 
+// and (min-width : 414px) {
+//     .bannerclass{
+//         top:149%;
+//       }
+// }
+
+// /* Smartphones (portrait) ----------- */
+// @media only screen 
+// and (max-width : 320px) {
+//     .bannerclass{
+//         top:149%;
+//       }
+// }
+
+
+
+
+// /* Desktops and laptops ----------- */
+// @media only screen 
+// and (min-width : 1224px) {
+//     .bannerclass{
+//         top:149%;
+//       }
+// }
+
+// /* Large screens ----------- */
+// @media only screen 
+// and (min-width : 1824px) {
+//     .bannerclass{
+//         top:149%;
+//       }
+// }
+
+// /* iPhone 4 - 5s ----------- */
+// @media
+// only screen and (-webkit-min-device-pixel-ratio : 1.5),
+// only screen and (min-device-pixel-ratio : 1.5) {
+//     .bannerclass{
+//         top:149%;
+//       }
+// }
+
